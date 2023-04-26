@@ -1,0 +1,98 @@
+* {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+:root {
+    --cool-gray: rgb(144, 156, 194);
+    /* --polynesian-blue: rgb(8, 72, 135); */
+    --polynesian-blue: rgb(6, 67, 128);
+    --dark-tangerine: rgb(255, 140, 0);
+    --tangerine: rgb(245, 138, 7);
+    --sandy-brown: rgb(249, 171, 85);
+    --ghost-white: rgb(247, 245, 251);
+}
+
+body {
+    
+    /* Background Image & Controls */
+    background-image: url('/src/assets/images/pexels-stephan-seeber-1054218.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h2,
+h3 {
+    color: var(--polynesian-blue);
+    text-shadow: 0.5px 0.5px 0px rgba(119, 159, 204, 0.884);
+    mix-blend-mode:initial; 
+}
+
+h5 {
+    color: var(--tangerine);
+    mix-blend-mode:inherit;
+}
+
+li {
+    list-style-position: inside;
+}
+
+.primaryText {
+    color:var(--ghost-white);
+    mix-blend-mode:inherit;
+
+}
+
+/* Navbar Elements */
+
+.nav-text {
+    text-decoration: solid;
+    color:rgb(249, 171, 85);
+    font-size:larger;
+    font-weight:400;
+
+}
+
+.nav-text-active {
+    color: var(--tangerine);
+    text-decoration:underline;
+    font-size:larger;
+    font-weight:400;
+    text-shadow: 0 0 .2px;
+}
+
+/* Navbar Elements - (:Hover) */
+
+.nav-text:hover {
+    color: var(--tangerine);
+    text-decoration: solid;
+    font-size:larger;
+    font-weight:400;
+    text-shadow: 0 0 .2px;
+}
+
+.nav-text-active:hover {
+    color: var(--tangerine);
+    text-decoration: solid;
+    font-size:larger;
+    font-weight:400;
+    text-shadow: 0 0 .2px;
+}
+
+/* Professional Link Elements */
+.fa-brands {
+    color: var(--sandy-brown);
+    
+}
+
+.fa-brands:hover {
+    color: var(--tangerine);
+    transition: color 0.15s;
+   
+    transform: scale(1.02);
+    transition: transform 0.15s;
+}
+
