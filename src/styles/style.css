@@ -50,6 +50,7 @@ li {
 .primaryText {
     color:var(--ghost-white);
     mix-blend-mode:inherit;
+    font-size:large;
 
 }
 
