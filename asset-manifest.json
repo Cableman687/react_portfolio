@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react_portfolio/static/css/main.69cead52.css",
+    "main.css": "/react_portfolio/static/css/main.8c85db8b.css",
     "main.js": "/react_portfolio/static/js/main.ddb36a59.js",
     "static/media/pexels-stephan-seeber-1054218.jpg": "/react_portfolio/static/media/pexels-stephan-seeber-1054218.539a8c5c50b965822984.jpg",
     "static/media/self-photo.jpg": "/react_portfolio/static/media/self-photo.eff138c7da012a19ed04.jpg",
@@ -13,11 +13,11 @@
     "static/media/William-Cable_Resume.docx": "/react_portfolio/static/media/William-Cable_Resume.0293c75d7940bea591e9.docx",
     "static/media/tech_blog.png": "/react_portfolio/static/media/tech_blog.e3e956c06767bc20dc2c.png",
     "index.html": "/react_portfolio/index.html",
-    "main.69cead52.css.map": "/react_portfolio/static/css/main.69cead52.css.map",
+    "main.8c85db8b.css.map": "/react_portfolio/static/css/main.8c85db8b.css.map",
     "main.ddb36a59.js.map": "/react_portfolio/static/js/main.ddb36a59.js.map"
   },
   "entrypoints": [
-    "static/css/main.69cead52.css",
+    "static/css/main.8c85db8b.css",
     "static/js/main.ddb36a59.js"
   ]
 }
