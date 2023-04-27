@@ -1,4 +1,6 @@
-# React Portfolio (In-Progress)
+# React Portfolio
+
+![alt text](./src/assets/images/screenshot.png)
 
 ## Description
 
