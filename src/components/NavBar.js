@@ -8,6 +8,15 @@ function NavBar({ currentPage, handlePageChange }) {
     <ul className="nav nav-bar">
       <li className="nav-item px-3">
         <a
+          href="#home"
+          onClick={() => handlePageChange('Home')}
+          className={currentPage === 'Home' ?  'nav-text-active' : 'nav-text'}
+        >
+          Home
+        </a>
+      </li>
+      <li className="nav-item px-3">
+        <a
           href="#about"
           onClick={() => handlePageChange('About')}
           className={currentPage === 'About' ?  'nav-text-active' : 'nav-text'}

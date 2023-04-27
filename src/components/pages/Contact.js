@@ -4,29 +4,6 @@ import {  validateEmail } from '../utils/helpers';
 
 function Contact() {
 
-  // const [Name, setName] = useState('');
-  // const [Email, setEmail] = useState('');
-  // const [Message, setMessage] = useState('');
-  // const [errorMessage, setErrorMessage] = useState('');
-
-  // const handleInputChange = (event) => {
-
-  //   const {target} = event;
-  //   const inputType = target.name;
-  //   const inputValue = target.value;
-
-  //   if(inputType === "Name"){
-  //     setName(inputValue);
-  //   } else if(inputType === "Email"){
-  //     setEmail(inputValue);
-  //   } else {
-  //     setMessage(inputValue);
-  //   }
-  // };
-
-  
-
-
   const handleFormSubmit = (event) => {
 
     event.preventDefault();
@@ -99,35 +76,52 @@ function Contact() {
       <header className='row text-center'>
         <h1>Contact</h1>
       </header>
-      <form className="form">
-        <input
-          value={Name}
-          name="Name"
-          onChange={handleNameChange}
-          type="text"
-          placeholder="Name"
-        />
-        <input
-          value={Email}
-          name="Email"
-          onChange={handleEmailChange}
-          type="text"
-          placeholder="Email"
-        />
-        <input
-          value={Message}
-          name="Message"
-          onChange={handleMessageChange}
-          type="text"
-          placeholder="Type message here..."
-        />
-      <button type="button" onClick={handleFormSubmit}>Submit</button>
-      </form>
-      {errorMessage && (
-        <div>
-          <p className="error-text">{errorMessage}</p>
+      <form className="form container">
+        <div className='row justify-content-center m-2'>
+          <input
+            value={Name}
+            name="Name"
+            onChange={handleNameChange}
+            type="text"
+            placeholder="Name"
+            className='col-4'
+          />
+        </div>
+        <div className='row justify-content-center m-2'>
+          <input
+            value={Email}
+            name="Email"
+            onChange={handleEmailChange}
+            type="text"
+            placeholder="Email"
+            className='row col-4'
+          />
+        </div>
+        <div className='row justify-content-center m-2'>
+          <textarea
+            value={Message}
+            name="Message"
+            onChange={handleMessageChange}
+            type="text"
+            placeholder="Type message here..."
+            className='row col-4'
+            rows={10}
+          />
+        </div>
+        <div className='row justify-content-center m-2'>
+            <button
+            type="button"
+            onClick={handleFormSubmit}
+            className='col-2'
+            >Submit</button>
+        </div>
+        {errorMessage && (
+        <div className='row justify-content-center m-2'>
+          <p className="error-text col-3 text-center">{errorMessage}</p>
         </div>
       )}
+      </form>
+
     </div>
     
 

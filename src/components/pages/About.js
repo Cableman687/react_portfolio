@@ -1,15 +1,17 @@
 import React from 'react';
 import selfie from '../../assets/images/self-photo.jpg';
+import avatar from '../../assets/images/avatar.png';
 
 export default function About() {
   return (
     <div>
+
       <header className='row text-center'>
         <h1>About Me!</h1>
       </header>
       
       <section className='row justify-content-center'>
-        <div className='col-8'>
+        <div className='col-7'>
           <p className="primaryText text-center">
             Hi There! I am a Full Stack Developer and C++ enthusiast on a learning journey of nearly three years.
             As a Programmer I am always ready to jump into new challenges and create clean, elegant solutions to complex problems.
@@ -22,21 +24,14 @@ export default function About() {
           Full-Stack Development | C++ | Mining | Projects | Finance
           </p>
 
-          <div className='text-center'>
-            <button type="button">View Projects!</button>
-          </div>
-
-          <div className='text-center'>
+        <div className='text-center'>
           <img src={selfie} height="300" className='m-4' alt="picture-of-author"/>
-          </div>
+        </div>
 
         </div>
 
       </section>
-      
 
-
-      
     </div>
   );
 }
