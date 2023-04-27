@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/my-react-app/static/css/main.47d66ae2.css",
-    "main.js": "/my-react-app/static/js/main.7e73ff38.js",
-    "static/media/pexels-stephan-seeber-1054218.jpg": "/my-react-app/static/media/pexels-stephan-seeber-1054218.539a8c5c50b965822984.jpg",
-    "static/media/self-photo.jpg": "/my-react-app/static/media/self-photo.eff138c7da012a19ed04.jpg",
-    "static/media/rick_and_morty.png": "/my-react-app/static/media/rick_and_morty.fc673eaf057a4290e9a5.png",
-    "static/media/cyber_fridge.png": "/my-react-app/static/media/cyber_fridge.4d667ba98b48d46a155c.png",
-    "static/media/avatar.png": "/my-react-app/static/media/avatar.5d9faea274f8e031629d.png",
-    "static/media/employee_tracker.jpg": "/my-react-app/static/media/employee_tracker.83794c7fc4ff12af574e.jpg",
-    "static/media/readme_generator.jpg": "/my-react-app/static/media/readme_generator.57c4949f48cb0bb3faab.jpg",
-    "static/media/note_taker.jpg": "/my-react-app/static/media/note_taker.5ccb645892a276af2f78.jpg",
-    "static/media/William-Cable_Resume.docx": "/my-react-app/static/media/William-Cable_Resume.0293c75d7940bea591e9.docx",
-    "static/media/tech_blog.png": "/my-react-app/static/media/tech_blog.e3e956c06767bc20dc2c.png",
-    "index.html": "/my-react-app/index.html",
-    "main.47d66ae2.css.map": "/my-react-app/static/css/main.47d66ae2.css.map",
-    "main.7e73ff38.js.map": "/my-react-app/static/js/main.7e73ff38.js.map"
+    "main.css": "/react_portfolio/static/css/main.69cead52.css",
+    "main.js": "/react_portfolio/static/js/main.ddb36a59.js",
+    "static/media/pexels-stephan-seeber-1054218.jpg": "/react_portfolio/static/media/pexels-stephan-seeber-1054218.539a8c5c50b965822984.jpg",
+    "static/media/self-photo.jpg": "/react_portfolio/static/media/self-photo.eff138c7da012a19ed04.jpg",
+    "static/media/rick_and_morty.png": "/react_portfolio/static/media/rick_and_morty.fc673eaf057a4290e9a5.png",
+    "static/media/cyber_fridge.png": "/react_portfolio/static/media/cyber_fridge.4d667ba98b48d46a155c.png",
+    "static/media/avatar.png": "/react_portfolio/static/media/avatar.5d9faea274f8e031629d.png",
+    "static/media/employee_tracker.jpg": "/react_portfolio/static/media/employee_tracker.83794c7fc4ff12af574e.jpg",
+    "static/media/readme_generator.jpg": "/react_portfolio/static/media/readme_generator.57c4949f48cb0bb3faab.jpg",
+    "static/media/note_taker.jpg": "/react_portfolio/static/media/note_taker.5ccb645892a276af2f78.jpg",
+    "static/media/William-Cable_Resume.docx": "/react_portfolio/static/media/William-Cable_Resume.0293c75d7940bea591e9.docx",
+    "static/media/tech_blog.png": "/react_portfolio/static/media/tech_blog.e3e956c06767bc20dc2c.png",
+    "index.html": "/react_portfolio/index.html",
+    "main.69cead52.css.map": "/react_portfolio/static/css/main.69cead52.css.map",
+    "main.ddb36a59.js.map": "/react_portfolio/static/js/main.ddb36a59.js.map"
   },
   "entrypoints": [
-    "static/css/main.47d66ae2.css",
-    "static/js/main.7e73ff38.js"
+    "static/css/main.69cead52.css",
+    "static/js/main.ddb36a59.js"
   ]
 }
